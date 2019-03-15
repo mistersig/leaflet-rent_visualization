@@ -1,0 +1,67 @@
+#mapid {
+    height: 97vh;
+    width: 80%;
+    display: inline-block;
+}
+
+#panel {
+    width: 19%;
+    height: 97vh;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    background-color: white;
+}
+
+/* control the slider */
+.sequence-control-container {
+    width: 220px;
+    height: 60px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 45px;
+    text-align: center;
+    border: solid gray 1px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    box-shadow: 4px 4px;
+    display: inline-block;
+}
+
+/*the entiere legend*/
+.legend-control-container {
+    width: 220px;
+    height: 160px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    border: 0;
+    line-height: 45px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    box-shadow: 4px 4px;
+}
+
+
+.skip {
+    width: 35px;
+    height: 35px;
+    margin-top: 1px;
+    display: inline-block;
+}
+
+
+
+#forward {
+    float:right;
+    display: inline-block;
+}
+
+#reverse {
+    float:left;
+    display: inline-block;
+}
+
+.leaflet-popup-content p {
+  margin: 0.2em 0;
+}

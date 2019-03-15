@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="maps, cartography"/>
+		<title>US Rental Market 2017</title>
+
+		<link rel="stylesheet" href="lib/leaflet/leaflet.css">
+		<!-- plug in -->
+   		<link rel="stylesheet" href="lib/Leaflet.markercluster-1.4.1/dist/MarkerCluster.css" />
+   		<link rel="stylesheet" href="lib/Leaflet.markercluster-1.4.1/dist/MarkerCluster.Default.css" />
+
+
+
+
+		<link rel="stylesheet" href="css/style.css">
+	
+				
+
+	</head>
+	<body>
+        <div id = 'panel'>
+            <div id = 'welcome'>
+                <h2 style="padding:5px;">Rent Rules Everything Around Me</h2>
+            </div>
+            <div id = 'team-area'>
+                <p style="padding:5px;"><br><br><br>
+                	In this application we look at the cost of rent for a single bedroom for the top 30 U.S. cities in 2017. Using <a href="https://www.kaggle.com/zillow/rent-index" target="_blank">Zillow Rent data</a><br><br>Use the navigation buttons to go through the year by month.</p>
+            </div>
+        </div>
+<div id = 'mapid'></div>
+
+
+
+		<script type="text/javascript" src="lib/leaflet/leaflet-src.js"></script>
+		<script type="text/javascript" src="lib/Leaflet.markercluster-1.4.1/dist/leaflet.markercluster.js"></script>
+		<!-- Jquery & Bootstrap -->
+		<script type="text/javascript" src="lib/jquery-3.3.1.min.js"></script>
+		
+		<script type="text/javascript" src="js/main_rent.js"></script>
+
+
+	</body>
+</html>
